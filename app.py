@@ -38,7 +38,7 @@ st.header("🏢Work Experience🏢")
 col1, col2 = st.columns([1, 8])
 
 with col1:
-    st.image("assets/shamal.png", width=110)  # Adjust width as needed
+    st.image("assets/Shamal.png", width=110)  # Adjust width as needed
 
 with col2:
     st.subheader("Data Science Intern @ Shamal Holding, Dubai, United Arab Emirates")
