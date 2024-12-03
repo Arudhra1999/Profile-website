@@ -12,7 +12,7 @@ st.set_page_config(
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image("assets/profile-pic-4.png", width=150)  
+    st.image("assets/profile-pic.png", width=150)  
 
 with col2:
     st.title("Arudhra Narasimhan Venkatachalam")
@@ -37,7 +37,7 @@ st.header("🏢Work Experience🏢")
 col1, col2 = st.columns([1, 8])
 
 with col1:
-    st.image("assets/shamal.png", width=110)  # Adjust width as needed
+    st.image("assets/Shamal.png", width=110)  # Adjust width as needed
 
 with col2:
     st.subheader("Data Science Intern @ Shamal Holding, Dubai, United Arab Emirates")
