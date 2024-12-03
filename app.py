@@ -12,19 +12,20 @@ st.set_page_config(
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image("assets/profile-pic-4.png", width=150)  
+    st.image("assets/profile-pic-1.jpg", width=150)  
 
 with col2:
     st.title("Arudhra Narasimhan Venkatachalam")
     st.markdown("""
     📍 Daman, Daman & Diu, India | 📧 arudhralemonz@gmail.com | 📞 +91-9003492711, +91-6382289706 | 
-    <a href="https://www.linkedin.com/in/arudhra-narasimhan-venkatachalam-719b63170/">LinkedIn Profile</a>
+    <a href="https://www.linkedin.com/in/arudhra-narasimhan-venkatachalam-719b63170/">LinkedIn Profile</a> | 
+    <a href="https://github.com/Arudhra1999">Github Profile </a>
     """, unsafe_allow_html=True)
 
 col1, col2 = st.columns([1,3])
 
 with col2:
-    st.write("Welcome to my #UnpolishedButPowerful Portfolio – a data scientist's zone where insights shine brighter than the UI!")
+    st.markdown("<h6>Welcome to my #UnpolishedButPowerful Portfolio – a data scientist's zone where insights shine brighter than the UI!</h6>", unsafe_allow_html=True)
 
 # About Section
 st.header("👩‍🏫Professional Summary👩‍🏫")
@@ -95,7 +96,6 @@ st.write("Course Curriculum -")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    
     st.write("""
     - Visualization                         
     - Algorithms for Data Science           
@@ -212,12 +212,12 @@ st.markdown("Project Link - Coming Soon")
 
 # Skills Section
 st.header("👨‍🎓Skills👨‍🎓")
-st.write("""
-- **Programming & Tools**: Java, Python, Selenium, MySQL, AWS Sagemaker, Power BI, Matplolib,
+st.markdown("""
+<strong>**Programming & Tools** </strong>: Java, Python, Selenium, MySQL, AWS Sagemaker, Power BI, Matplolib,
 Scitkit-Learn, Neural Networks, Transfer learning, Tensorflow, Pytorch, Langchain, Time Series analysis, Predictive analytics, ML
-algorithms, Numpy, Pandas, Streamlit, Gradio, Seaborn, Hypothesis Testing, Statistical Analysis. .
-- **Soft Skills**: Communication, Team Building, Leadership, Iterative Development.
-""")
+algorithms, Numpy, Pandas, Streamlit, Gradio, Seaborn, Hypothesis Testing, Statistical Analysis. <br>
+<strong>**Soft Skills** </strong>: Communication, Team Building, Leadership, Iterative Development.
+""", unsafe_allow_html=True)
 
 # Certifications Section
 st.header("🎓Certifications🎓")
