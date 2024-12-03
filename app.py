@@ -12,7 +12,7 @@ st.set_page_config(
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image("assets/profile-pic.png", width=150)  
+    st.image("assets/profile-pic-4.png", width=150)  
 
 with col2:
     st.title("Arudhra Narasimhan Venkatachalam")
@@ -27,15 +27,21 @@ with col2:
     st.write("Welcome to my #UnpolishedButPowerful Portfolio – a data scientist's zone where insights shine brighter than the UI!")
 
 # About Section
-st.header("Professional Summary")
+st.header("👩‍🏫Professional Summary👩‍🏫")
 st.write("""
 An aspiring data scientist with expertise in predictive analytics and quality assurance automation, delivering operational efficiencies and business insights through machine learning models and automation tools. Skilled in leveraging Generative AI, fuzzy logic, and automation techniques to streamline processes and enhance business outcomes.
 """)
 
 # Work Experience Section
-st.header("Work Experience")
+st.header("🏢Work Experience🏢")
+col1, col2 = st.columns([1, 8])
 
-st.subheader("Data Science Intern @ Shamal Holding, Dubai, United Arab Emirates")
+with col1:
+    st.image("assets/shamal.png", width=110)  # Adjust width as needed
+
+with col2:
+    st.subheader("Data Science Intern @ Shamal Holding, Dubai, United Arab Emirates")
+
 st.write("June 2024 - August 2024")
 st.write("""
  - Improved chatbot performance by 10% by analysing denormalized chat logs using Generative AI, driving better user insights and system interactions.
@@ -43,7 +49,15 @@ st.write("""
  - Got engaged in predictive modelling for Dubai Real Estate time series data, applying advanced statistical techniques to forecast market trends and inform strategic decisions.
 """)
 
-st.subheader("Automation QA Engineer @ Tekion India Pvt Ltd, Chennai, Tamil Nadu, India")
+col1, col2 = st.columns([1, 8])
+
+with col1:
+    st.image("assets/Tekion.png", width=110)  # Adjust width as needed
+
+with col2:
+    st.subheader("Automation QA Engineer @ Tekion India Pvt Ltd, Chennai, Tamil Nadu, India")
+
+# st.subheader("Automation QA Engineer @ Tekion India Pvt Ltd, Chennai, Tamil Nadu, India")
 st.write("November 2021 - September 2023")
 st.write("""
  - Spearheaded automation initiatives, saving over 20% of manual testing time by automating regression test cases using Selenium, significantly improving testing efficiency.
@@ -53,7 +67,15 @@ st.write("""
  - Drafted quality test cases for in-house eCommerce app ‘Tekion Store’ reducing post production issues by 70% and facilitating a smooth launch.
 """)
 
-st.subheader("Data Analytics Intern @ National University of Singapore, Singapore")
+col1, col2 = st.columns([1, 8])
+
+with col1:
+    st.image("assets/NUS.png", width=110)  # Adjust width as needed
+
+with col2:
+    st.subheader("Data Analytics Intern @ National University of Singapore, Singapore")
+
+# st.subheader("Data Analytics Intern @ National University of Singapore, Singapore")
 st.write("December 2019 - January 2020")
 st.write("""
 - Developed a CNN model for diabetic retinopathy prediction, achieving 82% accuracy.
@@ -62,7 +84,7 @@ st.write("""
 """)
 
 # Education Section
-st.header("Education")
+st.header("🎓Education🎓")
 st.write("""
 **Master of Science in Data Science**  
 University of Birmingham, Dubai (2023-2024) | Class: Distinction  
@@ -128,7 +150,7 @@ with col3:
     """)
 
 # Projects Section
-st.header("Projects")
+st.header("📂Projects📂")
 st.subheader(""" **1 - Real Estate Predictive Analytics**: """)
 st.write("Project Description : ")
 st.write("""
@@ -189,7 +211,7 @@ st.markdown("Project Link - Coming Soon")
 # """)
 
 # Skills Section
-st.header("Skills")
+st.header("👨‍🎓Skills👨‍🎓")
 st.write("""
 - **Programming & Tools**: Java, Python, Selenium, MySQL, AWS Sagemaker, Power BI, Matplolib,
 Scitkit-Learn, Neural Networks, Transfer learning, Tensorflow, Pytorch, Langchain, Time Series analysis, Predictive analytics, ML
@@ -198,7 +220,7 @@ algorithms, Numpy, Pandas, Streamlit, Gradio, Seaborn, Hypothesis Testing, Stati
 """)
 
 # Certifications Section
-st.header("Certifications")
+st.header("🎓Certifications🎓")
 st.write("""
 - Machine Learning by Andrew Ng (Coursera)
 - Google Data Analytics Professional Certificate (Coursera)
@@ -206,7 +228,7 @@ st.write("""
 - Generative AI with Large Language Models (Coursera)
 """)
 
-st.header("Download My Resume")
+st.header("📩 Download My Resume")
 with open("assets/Arudhra_Narasimhan_Venkatachalam.pdf", "rb") as file:
     resume_data = file.read()
 
