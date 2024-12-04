@@ -193,7 +193,7 @@ st.write("""
     - Confirmed turnovers and personal fouls significantly reduce playing time, with player positions influencing but not independently predictive.
     """)
 
-st.markdown("Project Link - Coming Soon")
+st.markdown("""Project Link : <a href="https://arudhra1999-data-science-group-project---visual-dash-app-x6hgpx.streamlit.app/">Link</a>""", unsafe_allow_html=True)
 
 st.subheader(""" **4 - Video Summarization using LLM.** """)
 st.write("Project Description: ")
