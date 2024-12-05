@@ -86,11 +86,16 @@ st.write("""
 
 # Education Section
 st.header("🎓Education🎓")
-st.write("""
-**Master of Science in Data Science**  
-University of Birmingham, Dubai (2023-2024) | Class: Distinction  
-- Chancellor’s Academic Scholarship Recipient
-""") 
+col1, col2 = st.columns([1, 8])
+
+with col1:
+    st.image("assets/UOBD.png", width=130)  # Adjust width as needed
+
+with col2:
+    st.markdown("""<strong>**Master of Science in Data Science**</strong>
+    -University of Birmingham, Dubai (2023-2024) | Class: Distinction """, unsafe_allow_html=True)    
+
+st.markdown("""- <strong> Chancellor’s Academic Scholarship Recipient </strong>""", unsafe_allow_html=True)
 st.write("Course Curriculum -")
 
 col1, col2, col3 = st.columns(3)
@@ -114,10 +119,20 @@ with col3:
     - Data Science Dissertation
     """)
 
-st.write("""**B-Tech in Computer Science and Engineering**  
-SASTRA Deemed University, Thanjavur (2017-2021) | GPA: 8.04/10 
-- Graudated with First Class in Distinction
-""")
+col1, col2 = st.columns([1, 8])
+
+with col1:
+    st.image("assets/SASTRA.png", width=130)  # Adjust width as needed
+
+with col2:
+    st.markdown("""<strong>**B-Tech in Computer Science and Engineering**</strong>
+    -SASTRA Deemed University, Thanjavur (2017-2021) | GPA: 8.04/10  """, unsafe_allow_html=True)
+
+# st.write("""**B-Tech in Computer Science and Engineering**  
+# SASTRA Deemed University, Thanjavur (2017-2021) | GPA: 8.04/10 
+# - Graudated with First Class in Distinction
+# """)
+st.markdown("""- <strong> Graudated with First Class in Distinction </strong>""", unsafe_allow_html=True)
 st.write("Course Curriculum -")
 
 col1, col2, col3 = st.columns(3)
@@ -215,7 +230,7 @@ st.header("👨‍🎓Skills👨‍🎓")
 st.markdown("""
 <strong>**Programming & Tools** </strong>: Java, Python, Selenium, MySQL, AWS Sagemaker, Power BI, Matplolib,
 Scitkit-Learn, Neural Networks, Transfer learning, Tensorflow, Pytorch, Langchain, Time Series analysis, Predictive analytics, ML
-algorithms, Numpy, Pandas, Streamlit, Gradio, Seaborn, Hypothesis Testing, Statistical Analysis. <br>
+algorithms, Numpy, Pandas, Streamlit, Gradio, Seaborn, Hypothesis Testing, Statistical Analysis. <br><br>
 <strong>**Soft Skills** </strong>: Communication, Team Building, Leadership, Iterative Development.
 """, unsafe_allow_html=True)
 
