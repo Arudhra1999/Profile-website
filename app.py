@@ -236,14 +236,21 @@ algorithms, Numpy, Pandas, Streamlit, Gradio, Seaborn, Hypothesis Testing, Stati
 
 # Certifications Section
 st.header("🎓Certifications🎓")
-st.write("""
-- Machine Learning by Andrew Ng (Coursera)
-- Google Data Analytics Professional Certificate (Coursera)
-- Practical Data Science on AWS (Coursera)
-- Generative AI with Large Language Models (Coursera)
-""")
+col1, col2, col3 = st.columns(3)
 
-st.header("📩 Download My Resume")
+with col1:
+
+    st.write("""
+    - Machine Learning by Andrew Ng (Coursera)
+    - Google Data Analytics Professional Certificate (Coursera) """)
+
+with col2:
+    st.write("""
+    - Practical Data Science on AWS (Coursera)
+    - Generative AI with Large Language Models (Coursera)
+    """)
+
+st.subheader("📩 Download My Resume")
 with open("assets/Arudhra_Narasimhan_Venkatachalam.pdf", "rb") as file:
     resume_data = file.read()
 
