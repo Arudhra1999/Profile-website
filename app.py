@@ -230,8 +230,8 @@ st.header("👨‍🎓Skills👨‍🎓")
 st.markdown("""
 <strong>**Programming & Tools** </strong>: Java, Python, Selenium, MySQL, AWS Sagemaker, Power BI, Matplolib,
 Scitkit-Learn, Neural Networks, Transfer learning, Tensorflow, Pytorch, Langchain, Time Series analysis, Predictive analytics, ML
-algorithms, Numpy, Pandas, Streamlit, Gradio, Seaborn, Hypothesis Testing, Statistical Analysis. <br><br>
-<strong>**Soft Skills** </strong>: Communication, Team Building, Leadership, Iterative Development.
+algorithms, Numpy, Pandas, Streamlit, Gradio, Seaborn, Hypothesis Testing, Statistical Analysis, Agile methods. <br><br>
+<strong>**Soft Skills** </strong>: Communication, Team Building, Leadership, Iterative Development, Data Driven decision making.
 """, unsafe_allow_html=True)
 
 # Certifications Section
