@@ -61,11 +61,10 @@ with col2:
 # st.subheader("Automation QA Engineer @ Tekion India Pvt Ltd, Chennai, Tamil Nadu, India")
 st.write("November 2021 - September 2023")
 st.write("""
- - Spearheaded automation initiatives, saving over 20% of manual testing time by automating regression test cases using Selenium, significantly improving testing efficiency.
- - Utilised Python (Pandas, Numpy) for data validation, improving report validation efficiency by 50%.
- - Led IoT-based Quality Assurance initiatives for a Vehicle Tracking System, reducing critical post-production issues by 45% through comprehensive test automation and monitoring solutions.
- - Conducted functional testing and created test cases for an in-house CRM and Product Master .
- - Drafted quality test cases for in-house eCommerce app ‘Tekion Store’ reducing post production issues by 70% and facilitating a smooth launch.
+ - Built automated data validation pipelines using Python and SQL, improving test coverage and reducing manual validation by 50%, created and maintained multiple data dashboards using Superset based on stakeholder demands.  
+ - Led IoT-based Quality Assurance initiatives for a Vehicle Tracking System, and developed an anomaly detection framework using machine learning models to identify irregular vehicle tracking patterns, reducing critical production issues by 45% and improving tracking system reliability. 
+ - Leveraged generative AI for drafting test cases for the given stakeholder requirements covering E2E workflows.
+ - Spearheaded automation initiatives, saving over 20% of manual testing time by automating regression test cases using Selenium, significantly improving testing efficiency for in-house tools "TAP-CRM", "Product Master" and "Tekion Store".
 """)
 
 col1, col2 = st.columns([1, 8])
