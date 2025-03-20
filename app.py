@@ -209,14 +209,6 @@ st.write("""
 
 st.markdown("""Project Link : <a href="https://arudhra1999-data-science-group-project---visual-dash-app-x6hgpx.streamlit.app/">Link</a>""", unsafe_allow_html=True)
 
-st.subheader(""" **4 - Video Summarization using LLM.** """)
-st.write("Project Description: ")
-st.write(" In Progress ........................." )
-st.markdown("Project Link - Coming Soon")
-
-
-
-
 # st.write("""
 # - **Real Estate Predictive Analytics**: Implemented ARIMAX models for real estate forecasting in Dubai, achieving MAPE of 2-3%.
 # - **Speech Impediment Detection**: Developed a multi-modal approach using LoRA fine-tuned DistilBERT and traditional ML classifiers.
